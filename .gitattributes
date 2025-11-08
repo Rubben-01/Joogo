@@ -1,1 +1,88 @@
-*LightingData.asset filter=lfs diff=lfs merge=lfs -text
+# a
+*.[aA] filter=lfs diff=lfs merge=lfs -text
+# bin
+*.[bB][iI][nN] filter=lfs diff=lfs merge=lfs -text
+# blend
+*.[bB][lL][eE][nN][dD] filter=lfs diff=lfs merge=lfs -text
+# bmp
+*.[bB][mM][pP] filter=lfs diff=lfs merge=lfs -text
+# bundle
+*.[bB][uU][nN][dD][lL][eE] filter=lfs diff=lfs merge=lfs -text
+# bytes
+*.[bB][yY][tT][eE][sS] filter=lfs diff=lfs merge=lfs -text
+# cvf
+*.[cC][vV][fF] filter=lfs diff=lfs merge=lfs -text
+# dae
+*.[dD][aA][eE] filter=lfs diff=lfs merge=lfs -text
+# dll
+*.[dD][lL][lL] filter=lfs diff=lfs merge=lfs -text
+# doc
+*.[dD][oO][cC] filter=lfs diff=lfs merge=lfs -text
+# docx
+*.[dD][oO][cC][xX] filter=lfs diff=lfs merge=lfs -text
+# exe
+*.[eE][xX][eE] filter=lfs diff=lfs merge=lfs -text
+# exr
+*.[eE][xX][rR] filter=lfs diff=lfs merge=lfs -text
+# fbx
+*.[fF][bB][xX] filter=lfs diff=lfs merge=lfs -text
+# gif
+*.[gG][iI][fF] filter=lfs diff=lfs merge=lfs -text
+# hdr
+*.[hH][dD][rR] filter=lfs diff=lfs merge=lfs -text
+# hpa2cache
+*.[hH][pP][aA][2][cC][aA][cC][hH][eE] filter=lfs diff=lfs merge=lfs -text
+# ico
+*.[iI][cC][oO] filter=lfs diff=lfs merge=lfs -text
+# jar
+*.[jJ][aA][rR] filter=lfs diff=lfs merge=lfs -text
+# jpg
+*.[jJ][pP][gG] filter=lfs diff=lfs merge=lfs -text
+# jpeg
+*.[jJ][pP][eE][gG] filter=lfs diff=lfs merge=lfs -text
+# lib
+*.[lL][iI][bB] filter=lfs diff=lfs merge=lfs -text
+# mp3
+*.[mM][pP][3] filter=lfs diff=lfs merge=lfs -text
+# mp4
+*.[mM][pP][4] filter=lfs diff=lfs merge=lfs -text
+# obj
+*.[oO][bB][jJ] filter=lfs diff=lfs merge=lfs -text
+# ogg
+*.[oO][gG][gG] filter=lfs diff=lfs merge=lfs -text
+# otf
+*.[oO][tT][fF] filter=lfs diff=lfs merge=lfs -text
+# pdf
+*.[pP][dD][fF] filter=lfs diff=lfs merge=lfs -text
+# png
+*.[pP][nN][gG] filter=lfs diff=lfs merge=lfs -text
+# pptx
+*.[pP][pP][tT][xX] filter=lfs diff=lfs merge=lfs -text
+# psd
+*.[pP][sS][dD] filter=lfs diff=lfs merge=lfs -text
+# rar
+*.[rR][aA][rR] filter=lfs diff=lfs merge=lfs -text
+# so
+*.[sS][oO] filter=lfs diff=lfs merge=lfs -text
+# spm
+*.[sS][pP][mM] filter=lfs diff=lfs merge=lfs -text
+# svg
+*.[sS][vV][gG] filter=lfs diff=lfs merge=lfs -text
+# tga
+*.[tT][gG][aA] filter=lfs diff=lfs merge=lfs -text
+# tif
+*.[tT][iI][fF] filter=lfs diff=lfs merge=lfs -text
+# ttf
+*.[tT][tT][fF] filter=lfs diff=lfs merge=lfs -text
+# wav
+*.[wW][aA][vV] filter=lfs diff=lfs merge=lfs -text
+# xcf
+*.[xX][cC][fF] filter=lfs diff=lfs merge=lfs -text
+# Macro for Unity YAML-based asset files.
+[attr]unityyaml -text merge=unityyamlmerge diff
+# Unity files
+*.meta unityyaml
+*.unity unityyaml
+*.asset unityyaml
+*.prefab unityyaml
+
